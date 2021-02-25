@@ -28,6 +28,7 @@ while step < rounds:
         print("Player:", score_user, "Computer:", score_comp)
     elif user_figure == comp_figure:
         print("Draw!")
+        print("Player:", score_user, "Computer:", score_comp)
     elif user_figure == "p" and comp_figure == "r":
         score_user += 1
         print("Player:", score_user, "Computer:", score_comp)
