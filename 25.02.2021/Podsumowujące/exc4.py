@@ -9,7 +9,6 @@ import random
 
 rounds = int(input("Enter rounds: "))
 step = 0
-user_figure = ""
 actions = ["r", "p", "s"]
 score_user = 0
 score_comp = 0
