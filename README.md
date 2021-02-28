@@ -1,5 +1,5 @@
 # Python_Basic 
-## CODE:ME python cource
+## CODE:ME python course
 
 The repository was created for the python basics course and includes tasks and includes tasks solved during the course + additional tasks.
 
