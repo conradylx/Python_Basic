@@ -13,13 +13,21 @@ def set_game(is_two_players):
     }
     end_game = False
     if is_two_players == 1:
-        while end_game == False:
+        while not end_game:
+            if '.' not in board.values():
+                print("Draw")
+                break
+
             print_board(board)
             set_user_input(board)
             set_comp_input(board)
             end_game = check_logic_of_game(board, is_two_players)
     else:
-        while end_game == False:
+        while not end_game:
+            if '.' not in board.values():
+                print("Draw")
+                break
+
             print_board(board)
             set_user_input(board)
             set_user2_input(board)
@@ -67,6 +75,7 @@ def set_comp_input(board):
 
 def check_logic_of_game(board, is_two_players):
     end_game = False
+
     if (board[1] == 'X' and board[2] == 'X' and board[3] == 'X') or \
             (board[1] == 'X' and board[4] == 'X' and board[7] == 'X') or \
             (board[1] == 'X' and board[5] == 'X' and board[9] == 'X') or \
@@ -89,6 +98,7 @@ def check_logic_of_game(board, is_two_players):
             (board[7] == 'O' and board[8] == 'O' and board[9] == 'O') or \
             (board[3] == 'O' and board[5] == 'O' and board[7] == 'O'):
         end_game = True
+
         if is_two_players == 1:
             print('PC won')
         else:
