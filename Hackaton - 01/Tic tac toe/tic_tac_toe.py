@@ -17,7 +17,7 @@ def set_game(is_two_players):
             print_board(board)
             set_user_input(board)
             set_comp_input(board)
-            end_game = check_logic_of_game(board)
+            end_game = check_logic_of_game(board, is_two_players)
     else:
         while end_game == False:
             print_board(board)
