@@ -3,7 +3,7 @@ Hangman game. Before the game, you can choose the category from which the questi
 
 ## Prerequisites
 
-You must have the following installed if you want launch project from your IDE:
+You must have the following installed:
 - Python 3
 
 ### Conception of solution
