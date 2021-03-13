@@ -1,0 +1,20 @@
+{
+  "Sport": [
+    "Adam Malysz",
+    "Pilka nozna",
+    "Koszykowka",
+    "Rugby"
+  ],
+  "Polityka": [
+    "PolA",
+    "PolB",
+    "PolC",
+    "PolD"
+  ],
+  "Filmy": [
+    "FilmA",
+    "FilmB",
+    "FilmC",
+    "FilmD"
+  ]
+}
