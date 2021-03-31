@@ -23,6 +23,5 @@ def get_random_quote(quotes: dict):
         if quote == random_quote:
             print(random_quote, author)
 
-
 reader_dict = read_file()
 get_random_quote(reader_dict)
