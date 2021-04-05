@@ -10,6 +10,7 @@ The repository was created for the python basics course and includes tasks and i
 - Collections
 - Methods
 - Files
+- Modules
 
 ## Folder dates and what they contain
 
@@ -17,9 +18,10 @@ The repository was created for the python basics course and includes tasks and i
 - 17.02.2021 - Data types
 - 25.02.2021 - Control flow instructions
 - 03.03.2021 - Collections
-- 10.03.2021 - Methods
+- 10.03.2021 - Methods/functions
 - 17.03.2021 - Solving tasks
 - 24.03.2021 - Files operations
+- 31.03.2021 - Modules
 - Hackaton - 01
 
 Repository will be updated every week.
