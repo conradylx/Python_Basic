@@ -17,3 +17,5 @@ except IndexError as error:
     print(error)
 except ZeroDivisionError as error:
     print(error)
+finally:
+    print('Handled every error if there was any.')
