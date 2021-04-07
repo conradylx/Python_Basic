@@ -11,6 +11,7 @@ The repository was created for the python basics course and includes tasks and i
 - Methods
 - Files
 - Modules
+- Error handling
 
 ## Folder dates and what they contain
 
@@ -22,6 +23,7 @@ The repository was created for the python basics course and includes tasks and i
 - 17.03.2021 - Solving tasks
 - 24.03.2021 - Files operations
 - 31.03.2021 - Modules
+- 07.04.2021 - Error handling  
 - Hackaton - 01
 
 Repository will be updated every week.
