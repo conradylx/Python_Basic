@@ -33,7 +33,7 @@ def play_rounds(word):
             guesses -= 1
             print(f"{user_guess} not found in the word. {guesses} guesses left.")
             if guesses == 0:
-                print(f'Hidden word was: {word}')
+                print(f'Game is over. Hidden word was: {word}')
                 change_hangman_color = True
                 print_hangman(hangman_counter, change_hangman_color)
                 time.sleep(4)  # time sleep inside print_hangman doesnt work because of break below so I put it here.
