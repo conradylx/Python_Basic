@@ -12,7 +12,7 @@ def take_random_words(words: list) -> list:
     return random.choice(words)
 
 
-def play_rounds(word):
+def play_rounds(word: list):
     """
     Main logic function.
     """
@@ -51,7 +51,7 @@ def play_rounds(word):
             break
 
 
-def check_if_char_typed(list_of_typed_chars):
+def check_if_char_typed(list_of_typed_chars: list) -> str:
     """
     Function checks if given character is already typed.
     """
@@ -70,13 +70,14 @@ def check_if_char_typed(list_of_typed_chars):
     return user_guess
 
 
-def get_data_from_json_file():
+def get_data_from_json_file() -> list:
     with open('words.json') as json_file:
         data = json.load(json_file)
     data_from_json = list(*data.values())
     return data_from_json
 
 
-list_of_words = get_data_from_json_file()
-random_word = take_random_words(list_of_words)
-play_rounds(random_word)
+if __name__ == '__main__':
+    list_of_words = get_data_from_json_file()
+    random_word = take_random_words(list_of_words)
+    play_rounds(random_word)

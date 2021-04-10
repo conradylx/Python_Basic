@@ -2,7 +2,7 @@ import time
 import turtle
 
 
-def print_hangman(counter, final):
+def print_hangman(counter: int, final: bool):
     hangman = turtle.Turtle()
     hangman.hideturtle()
     hangman.speed(0)
