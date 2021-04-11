@@ -71,10 +71,14 @@ def check_if_char_typed(list_of_typed_chars: list) -> str:
 
 
 def get_data_from_json_file() -> list:
-    with open('words.json') as json_file:
-        data = json.load(json_file)
-    data_from_json = list(*data.values())
-    return data_from_json
+    try:
+        with open('words.json', mode='r', encoding='UTF-8') as json_file:
+            data = json.load(json_file)
+        data_from_json = list(*data.values())
+        return data_from_json
+    except (FileExistsError, FileNotFoundError):
+        print("JSON file not found.")
+        quit()
 
 
 if __name__ == '__main__':

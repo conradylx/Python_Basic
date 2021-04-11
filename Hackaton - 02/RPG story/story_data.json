@@ -1,0 +1,31 @@
+{
+  "Locations": [
+    "Anduin River",
+    "Dead Marshes",
+    "Isengard",
+    "Ford of Bruinen",
+    "Ered Nimrais",
+    "South of Rivendell",
+    "Edoras",
+    "Shire",
+    "Minas Tirith"
+  ],
+  "Actions": [
+    "HERO is walking in ",
+    "HERO been attacked by ugly filthy Ork in ",
+    "HERO is going to find something to eat in ",
+    "HERO is sleepy. HERO went to sleep in ",
+    "HERO is follows the road steadily and briskly. Nothing happens in",
+    "Nothing happens in "
+  ],
+  "Items": [
+    "Rusty sword",
+    "Gimli's lost axe",
+    "Anduril",
+    "Orcrist",
+    "Glamdring",
+    "Long bow",
+    "Staff of star",
+    "Potion"
+  ]
+}
