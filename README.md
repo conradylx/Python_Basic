@@ -2,6 +2,7 @@
 ## CODE:ME Python course
 
 The repository was created for the python basics course and includes tasks and includes tasks solved during the course + additional tasks.
+Hackaton's files are described in seperate README.
 
 ## Things I've learned so far (in this course)
 
