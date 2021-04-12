@@ -2,6 +2,7 @@
 # Co jeśli użytkownik poda wartość 60 kg ?
 # Zmodyfikuj kod z ostatnich zajęć tak, aby wykluczyć powyższy przypadek.
 
+
 def calculate_BMI(mass: int, height: float) -> str:
     bmi = mass / (height ** 2)
     bmi_rounded = round(bmi, 2)
@@ -15,6 +16,7 @@ def calculate_BMI(mass: int, height: float) -> str:
     elif bmi_rounded >= 30:
         return "Otyłość"
 
+
 def main_function():
     mass, height = get_input_data()
     bmi_result = calculate_BMI(mass, height)
@@ -22,8 +24,24 @@ def main_function():
 
 
 def get_input_data() -> tuple:
-    mass = int(input('Podaj swoją wagę w kg (np 80): '))
-    height = float(input('Podaj swój wzrost (np 1.80): '))
+    mass, height = 0, 0.0
+    while True:
+        try:
+            mass = float(input('Podaj swoją wagę w kg (np 80): '))
+            height = float(input('Podaj swój wzrost w metrach (np 1.80): '))
+        except(ValueError, TypeError):
+            print('This is not valid value. Try again')
+
+        if mass > 30 and 1.5 < height < 2.35:
+            break
+        else:
+            if 1.5 < height < 2.35:
+                print('Your height is too high. Try again.')
+            elif not (mass > 30 and 1.5 < height < 2.35):
+                print('Your height is too high and mass is too low. Try again.')
+            else:
+                print('Your mass is too low. Try again.')
+
     return mass, height
 
 
