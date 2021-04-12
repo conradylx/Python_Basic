@@ -9,5 +9,3 @@ Feugiat nisl pretium fusce id velit ut. Gravida quis blandit turpis cursus in ha
 Consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo. Augue eget arcu dictum varius duis at.
 Mi quis hendrerit dolor magna. At augue eget arcu dictum varius. Lacus laoreet non curabitur gravida arcu ac.
 Massa tincidunt nunc pulvinar sapien. Turpis egestas pretium aenean pharetra. Diam sollicitudin tempor id eu nisl
-
-Author: Cicero
