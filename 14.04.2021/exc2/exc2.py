@@ -7,7 +7,7 @@ def addition_by_number(number, add_by_num, temp_sum, sum_of_nums):
         return sum_of_nums
 
 
-def return_multi_by_5_or_7(number):
+def return_result_of_calculation(number):
     addition_number = 5
     sum_of_5s = addition_by_number(number, addition_number, 0, 0)
     addition_number = 7
@@ -17,4 +17,4 @@ def return_multi_by_5_or_7(number):
 
 if __name__ == '__main__':
     number = int(input("Enter N"))
-    print(return_multi_by_5_or_7(number))
+    print(return_result_of_calculation(number))
