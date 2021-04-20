@@ -30,6 +30,6 @@ if __name__ == '__main__':
         'G': {'B': 2, 'D': 1, 'C': 2},
     }
     node = perform_dijkstra_algorithm(nodes, distances)
-    total_weigh = sum(node.values())
+    total_weight = sum(node.values())
     print(node)
-    print(f'Total weight is {total_weigh}')
+    print(f'Total weight is {total_weight}')
