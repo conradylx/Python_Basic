@@ -13,6 +13,9 @@ Hackaton's files are described in seperate README.
 - Files
 - Modules
 - Error handling
+- OOP
+- Algorithms
+- Inheritance
 
 ## Folder dates and what they contain
 
