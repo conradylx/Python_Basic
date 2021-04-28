@@ -27,6 +27,7 @@ Hackaton's files are described in seperate README.
 - 07.04.2021 - Error handling
 - 14.04.2021 - Algorithms
 - 21.04.2021 - OOP  
+- 28.04.2021 - Inheritance
 - Hackaton - 01
 - Hackaton - 02
 
