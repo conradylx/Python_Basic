@@ -1,7 +1,7 @@
 # Stwórz abstrakcyjną klasę Pojazdy.
 # Utwórz potomne klasy pojazdy np. Samochód, Rower, Autobus, Ciężarówki.
 # Dodaj opisy zgodne z tym jak te pojazdy są klasyfikowane.
-# Jaki rodzaj dokumentu jest potrzebny, by kierować poszczegolnym pojazdem.
+# Jaki rodzaj dokumentu jest potrzebny, by kierować poszczególnym pojazdem.
 from abc import ABC, abstractmethod
 
 
