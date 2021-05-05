@@ -27,11 +27,19 @@ class Student:
     def set_avg(cls, new_avg):
         cls.min_avg = new_avg
 
+    @staticmethod
+    def show_sth():
+        return "Obecnie rektorem jest Jon Snow"
+
 
 anna = Student('anna', 'kowalska', 23, 4.7)
 arkadiusz = Student('arkadiusz', 'nowak', 21, 3.9)
 
-print(anna.min_avg)
-anna.set_avg(4.2)
-print(anna.min_avg)
-print(arkadiusz.min_avg)
+# print(anna.min_avg)
+# anna.set_avg(4.2)
+# print(anna.min_avg)
+# print(arkadiusz.min_avg)
+
+text = Student.show_sth()
+print(text)
+
