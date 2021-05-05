@@ -16,6 +16,7 @@ Hackaton's files are described in seperate README.
 - OOP
 - Algorithms
 - Inheritance
+- Decorators
 
 ## Folder dates and what they contain
 
@@ -29,8 +30,9 @@ Hackaton's files are described in seperate README.
 - 31.03.2021 - Modules
 - 07.04.2021 - Error handling
 - 14.04.2021 - Algorithms
-- 21.04.2021 - OOP  
+- 21.04.2021 - OOP
 - 28.04.2021 - Inheritance
+- 05.05.2021 - Decorators
 - Hackaton - 01
 - Hackaton - 02
 
