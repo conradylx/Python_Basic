@@ -18,7 +18,7 @@ Hackaton's files are described in seperate README.
 - Inheritance
 - Decorators
 
-## Folder dates and what they contain
+## Folder dates and what it contains
 
 - 10.02.2021 - Introduction to Python
 - 17.02.2021 - Data types
