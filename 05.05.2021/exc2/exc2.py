@@ -6,7 +6,8 @@ def timepassed(f):
     def print_time():
         start = f()
         end = time.time()
-        print(end - start)
+        print('Stop')
+        print(round(end - start, 5), 'sec')
 
     return print_time
 
@@ -14,7 +15,8 @@ def timepassed(f):
 @timepassed
 def check_time_passed():
     start = time.time()
-    print('Hello')
+    print('Start')
+    time.sleep(5)
     return start
 
 
