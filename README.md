@@ -33,6 +33,7 @@ Hackaton's files are described in seperate README.
 - 21.04.2021 - OOP
 - 28.04.2021 - Inheritance
 - 05.05.2021 - Decorators
+- 12.05.2021 - Strategy project
 - Hackaton - 01
 - Hackaton - 02
 
