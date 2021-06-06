@@ -13,7 +13,7 @@ class Student:
 
     @property
     def email(self):
-        return '{}.{}@university.com'.format(self.name, self.last)
+        return '{}.{}@university.com'.format(self.name.lower(), self.last.lower())
 
     def grant_scholarship(self):
         if self.student_avg > self.min_avg:

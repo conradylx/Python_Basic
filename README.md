@@ -17,6 +17,7 @@ Hackaton's files are described in seperate README.
 - Algorithms
 - Inheritance
 - Decorators
+- Unit tests
 
 ## Folder dates and what it contains
 
@@ -34,6 +35,7 @@ Hackaton's files are described in seperate README.
 - 28.04.2021 - Inheritance
 - 05.05.2021 - Decorators
 - 12.05.2021 - Strategy project
+- 19.05.2021 - Unit tests  
 - Hackaton - 01
 - Hackaton - 02
 
