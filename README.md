@@ -18,6 +18,7 @@ Hackaton's files are described in seperate README.
 - Inheritance
 - Decorators
 - Unit tests
+- FastAPI
 
 ## Folder dates and what it contains
 
@@ -36,6 +37,7 @@ Hackaton's files are described in seperate README.
 - 05.05.2021 - Decorators
 - 12.05.2021 - Strategy project
 - 19.05.2021 - Unit tests  
+- 26.05.2021 - FastAPI
 - Hackaton - 01
 - Hackaton - 02
 
